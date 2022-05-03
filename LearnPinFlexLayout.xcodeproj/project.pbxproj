@@ -7,23 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5145735281B87C00004634D /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5145734281B87C00004634D /* Alamofire.xcframework */; };
+		D5145736281B87C00004634D /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5145734281B87C00004634D /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D5145738281B880E0004634D /* FlexLayout.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5145737281B880E0004634D /* FlexLayout.xcframework */; };
+		D5145739281B880E0004634D /* FlexLayout.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5145737281B880E0004634D /* FlexLayout.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D514573C281B8B310004634D /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = D514573B281B8B310004634D /* PinLayout */; };
+		D5145740281B96D40004634D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514573F281B96D40004634D /* ProfileView.swift */; };
+		D5145742281B977D0004634D /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5145741281B977D0004634D /* ColorConstants.swift */; };
+		D5145744281BD8450004634D /* MyTasksTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5145743281BD8450004634D /* MyTasksTitleView.swift */; };
+		D5145747281BD9630004634D /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5145746281BD9630004634D /* UIFont+Extensions.swift */; };
+		D5145749281BFB9F0004634D /* TaskStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5145748281BFB9F0004634D /* TaskStatusView.swift */; };
+		D54B7DE9281D507000C44C33 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54B7DE8281D507000C44C33 /* ProjectCardView.swift */; };
+		D5BDF8AB2820D4AB009D8839 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BDF8AA2820D4AB009D8839 /* CircularProgressView.swift */; };
 		D5DB90C3281A658100D9D783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB90C2281A658100D9D783 /* AppDelegate.swift */; };
 		D5DB90C5281A658100D9D783 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB90C4281A658100D9D783 /* SceneDelegate.swift */; };
 		D5DB90C7281A658100D9D783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB90C6281A658100D9D783 /* ViewController.swift */; };
-		D5DB90CA281A658100D9D783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DB90C8281A658100D9D783 /* Main.storyboard */; };
 		D5DB90CC281A658400D9D783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DB90CB281A658400D9D783 /* Assets.xcassets */; };
 		D5DB90CF281A658400D9D783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DB90CD281A658400D9D783 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D5DB90DA281A7C7900D9D783 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D5145739281B880E0004634D /* FlexLayout.xcframework in Embed Frameworks */,
+				D5145736281B87C00004634D /* Alamofire.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D5145734281B87C00004634D /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		D5145737281B880E0004634D /* FlexLayout.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlexLayout.xcframework; path = Carthage/Build/FlexLayout.xcframework; sourceTree = "<group>"; };
+		D514573F281B96D40004634D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D5145741281B977D0004634D /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		D5145743281BD8450004634D /* MyTasksTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTasksTitleView.swift; sourceTree = "<group>"; };
+		D5145746281BD9630004634D /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		D5145748281BFB9F0004634D /* TaskStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStatusView.swift; sourceTree = "<group>"; };
+		D54B7DE8281D507000C44C33 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
+		D5BDF8AA2820D4AB009D8839 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		D5DB90BF281A658100D9D783 /* LearnPinFlexLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnPinFlexLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DB90C2281A658100D9D783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5DB90C4281A658100D9D783 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D5DB90C6281A658100D9D783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5DB90C9281A658100D9D783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5DB90CB281A658400D9D783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5DB90CE281A658400D9D783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5DB90D0281A658400D9D783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DB90D7281A7C7900D9D783 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +66,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D514573C281B8B310004634D /* PinLayout in Frameworks */,
+				D5145738281B880E0004634D /* FlexLayout.xcframework in Frameworks */,
+				D5145735281B87C00004634D /* Alamofire.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D514573D281B964D0004634D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D514573E281B96670004634D /* Child Views */,
+				D5DB90C6281A658100D9D783 /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		D514573E281B96670004634D /* Child Views */ = {
+			isa = PBXGroup;
+			children = (
+				D514573F281B96D40004634D /* ProfileView.swift */,
+				D5145743281BD8450004634D /* MyTasksTitleView.swift */,
+				D5145748281BFB9F0004634D /* TaskStatusView.swift */,
+				D54B7DE8281D507000C44C33 /* ProjectCardView.swift */,
+				D5BDF8AA2820D4AB009D8839 /* CircularProgressView.swift */,
+			);
+			path = "Child Views";
+			sourceTree = "<group>";
+		};
+		D5145745281BD94B0004634D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5145746281BD9630004634D /* UIFont+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D5DB90B6281A658100D9D783 = {
 			isa = PBXGroup;
 			children = (
 				D5DB90C1281A658100D9D783 /* LearnPinFlexLayout */,
 				D5DB90C0281A658100D9D783 /* Products */,
+				D5DB90D6281A7C7900D9D783 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +124,26 @@
 		D5DB90C1281A658100D9D783 /* LearnPinFlexLayout */ = {
 			isa = PBXGroup;
 			children = (
+				D5145745281BD94B0004634D /* Extensions */,
 				D5DB90C2281A658100D9D783 /* AppDelegate.swift */,
 				D5DB90C4281A658100D9D783 /* SceneDelegate.swift */,
-				D5DB90C6281A658100D9D783 /* ViewController.swift */,
-				D5DB90C8281A658100D9D783 /* Main.storyboard */,
+				D514573D281B964D0004634D /* View Controller */,
 				D5DB90CB281A658400D9D783 /* Assets.xcassets */,
 				D5DB90CD281A658400D9D783 /* LaunchScreen.storyboard */,
 				D5DB90D0281A658400D9D783 /* Info.plist */,
+				D5145741281B977D0004634D /* ColorConstants.swift */,
 			);
 			path = LearnPinFlexLayout;
+			sourceTree = "<group>";
+		};
+		D5DB90D6281A7C7900D9D783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5145737281B880E0004634D /* FlexLayout.xcframework */,
+				D5145734281B87C00004634D /* Alamofire.xcframework */,
+				D5DB90D7281A7C7900D9D783 /* Alamofire.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +156,17 @@
 				D5DB90BB281A658100D9D783 /* Sources */,
 				D5DB90BC281A658100D9D783 /* Frameworks */,
 				D5DB90BD281A658100D9D783 /* Resources */,
+				D5DB90DA281A7C7900D9D783 /* Embed Frameworks */,
+				D5DB90DB281A7CF700D9D783 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LearnPinFlexLayout;
+			packageProductDependencies = (
+				D514573B281B8B310004634D /* PinLayout */,
+			);
 			productName = LearnPinFlexLayout;
 			productReference = D5DB90BF281A658100D9D783 /* LearnPinFlexLayout.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +195,9 @@
 				Base,
 			);
 			mainGroup = D5DB90B6281A658100D9D783;
+			packageReferences = (
+				D514573A281B8B310004634D /* XCRemoteSwiftPackageReference "PinLayout" */,
+			);
 			productRefGroup = D5DB90C0281A658100D9D783 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +214,53 @@
 			files = (
 				D5DB90CF281A658400D9D783 /* LaunchScreen.storyboard in Resources */,
 				D5DB90CC281A658400D9D783 /* Assets.xcassets in Resources */,
-				D5DB90CA281A658100D9D783 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5DB90DB281A7CF700D9D783 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5DB90BB281A658100D9D783 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5145740281B96D40004634D /* ProfileView.swift in Sources */,
+				D5145749281BFB9F0004634D /* TaskStatusView.swift in Sources */,
 				D5DB90C7281A658100D9D783 /* ViewController.swift in Sources */,
 				D5DB90C3281A658100D9D783 /* AppDelegate.swift in Sources */,
+				D5145742281B977D0004634D /* ColorConstants.swift in Sources */,
+				D5145744281BD8450004634D /* MyTasksTitleView.swift in Sources */,
+				D54B7DE9281D507000C44C33 /* ProjectCardView.swift in Sources */,
 				D5DB90C5281A658100D9D783 /* SceneDelegate.swift in Sources */,
+				D5BDF8AB2820D4AB009D8839 /* CircularProgressView.swift in Sources */,
+				D5145747281BD9630004634D /* UIFont+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D5DB90C8281A658100D9D783 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5DB90C9281A658100D9D783 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D5DB90CD281A658400D9D783 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,13 +394,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SCZQ3M4JVY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LearnPinFlexLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,13 +427,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SCZQ3M4JVY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LearnPinFlexLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +474,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D514573A281B8B310004634D /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D514573B281B8B310004634D /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D514573A281B8B310004634D /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5DB90B7281A658100D9D783 /* Project object */;
 }
